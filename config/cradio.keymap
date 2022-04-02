@@ -9,11 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define QWE 0
+#define QWEW 0
 #define NAV 1
 #define SYM 2
 #define NUM 3
-#define QWEW 4
+#define QWE 4
 #define NAVW 5
 #define SYMW 6
 #define NUMW 7
@@ -153,7 +153,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      &kp BSLH      &kp AMPS      &kp DLLR      &kp EXCL      &kp QMARK         &kp ASTRK     &kp PIPE      &kp AT        &kp PRCNT     &none
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                              &trans          &trans            &trans        &trans
+                                              &trans          &LANG1            &trans        &trans
 //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
             >;
         };
